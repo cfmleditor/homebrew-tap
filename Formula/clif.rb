@@ -3,7 +3,6 @@
 class Clif < Formula
   desc "CFML language server and command-line checks (formerly cfmleditor-lsp)"
   homepage "https://github.com/cfmleditor/clif"
-  version "0.5.0"
   license "MIT"
 
   on_macos do
