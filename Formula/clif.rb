@@ -5,25 +5,27 @@ class Clif < Formula
   homepage "https://github.com/cfmleditor/clif"
   license "MIT"
 
+  conflicts_with "clif-source", because: "both install `clif` and `cfmleditor-lsp` binaries"
+
   on_macos do
     on_arm do
-      url "https://github.com/cfmleditor/clif/releases/download/v0.5.2/clif-darwin-arm64.tar.gz"
-      sha256 "ce0a0f33a80697638ea1d25a0c007093430403cef88d23e39478ec6f33e69729"
+      url "https://github.com/cfmleditor/clif/releases/download/v0.5.3/clif-darwin-arm64.tar.gz"
+      sha256 "65150f5381df030de29cdd7f34ffcfab6eedde9d1bcf4048f67fc23e7aa02101"
     end
     on_intel do
-      url "https://github.com/cfmleditor/clif/releases/download/v0.5.2/clif-darwin-amd64.tar.gz"
-      sha256 "b57283a161731507514cd4f6f5626978b54d2d9260ae8f9791d4368d2db19072"
+      url "https://github.com/cfmleditor/clif/releases/download/v0.5.3/clif-darwin-amd64.tar.gz"
+      sha256 "122096453a55b14cac37189533a4d4bd21749b3a71a8832c3fc97319b112fde8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/cfmleditor/clif/releases/download/v0.5.2/clif-linux-arm64.tar.gz"
-      sha256 "ddb1be1f0ad97904399791cf5e753f723e8624972c2257cff4863ebda07115b7"
+      url "https://github.com/cfmleditor/clif/releases/download/v0.5.3/clif-linux-arm64.tar.gz"
+      sha256 "92623046ba0a91a097a3f4d1b6be1c9b7ece9b7e94505948826205460780572b"
     end
     on_intel do
-      url "https://github.com/cfmleditor/clif/releases/download/v0.5.2/clif-linux-amd64.tar.gz"
-      sha256 "478315bca9f1d0b7adbace01bb24d2b04dbdc056227fc78ea8c1cec343f37999"
+      url "https://github.com/cfmleditor/clif/releases/download/v0.5.3/clif-linux-amd64.tar.gz"
+      sha256 "d5aca6e530e8620b5df097fafaf5b81d8b9b7bcb6d7883558e57a486030117f9"
     end
   end
 
