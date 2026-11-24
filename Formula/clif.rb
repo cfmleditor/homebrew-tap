@@ -9,23 +9,23 @@ class Clif < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/cfmleditor/clif/releases/download/v0.7.3/clif-darwin-arm64.tar.gz"
-      sha256 "f689ef4f4ae8c424d569145f1fb6f6c4e3a5a2adc3de07853062c059d153e9b3"
+      url "https://github.com/cfmleditor/clif/releases/download/v0.7.4/clif-darwin-arm64.tar.gz"
+      sha256 "223b69200c56e7ef4ac1d5146c15b9d607e725ef619847bdafa411dc62625ee0"
     end
     on_intel do
-      url "https://github.com/cfmleditor/clif/releases/download/v0.7.3/clif-darwin-amd64.tar.gz"
-      sha256 "e36087447a537691af4cbc6f5372b167d4552e41bfceb2f90008c1dedd34a816"
+      url "https://github.com/cfmleditor/clif/releases/download/v0.7.4/clif-darwin-amd64.tar.gz"
+      sha256 "9c441b2a588c6a9277b3250f622d2af0d1d7e10d109ad3f5b012f05fbd6c66d4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/cfmleditor/clif/releases/download/v0.7.3/clif-linux-arm64.tar.gz"
-      sha256 "0aef6482e5ed2cd92385bd12db20b9a9e8a254b1d1eb907e6deac977e01a6a0c"
+      url "https://github.com/cfmleditor/clif/releases/download/v0.7.4/clif-linux-arm64.tar.gz"
+      sha256 "7842068d150b951ef8f5af44a8484b363bd1d5d4b4c57cc6f952a600cce56f09"
     end
     on_intel do
-      url "https://github.com/cfmleditor/clif/releases/download/v0.7.3/clif-linux-amd64.tar.gz"
-      sha256 "4ba9cc3ea559953416ad6dc15292eff9eaf65724c8b934e31e0c9da0807bbd3a"
+      url "https://github.com/cfmleditor/clif/releases/download/v0.7.4/clif-linux-amd64.tar.gz"
+      sha256 "835f84ddf1b96180d12552898d3fdce2e4a9506cfb675166ca02d276ab98591d"
     end
   end
 
