@@ -3,8 +3,8 @@
 class ClifSource < Formula
   desc "CFML language server and command-line checks (built from source)"
   homepage "https://github.com/cfmleditor/clif"
-  url "https://github.com/cfmleditor/clif/releases/download/v0.7.5/clif-0.7.5-source.tar.gz"
-  sha256 "8ec3482f9e4cab58acb987f60ed0e660aa4e53c0822226fc46f583c87bb6ea50"
+  url "https://github.com/cfmleditor/clif/releases/download/v0.7.6/clif-0.7.6-source.tar.gz"
+  sha256 "e2bad565565ece6dcef79a77a75ea7e90c5547f81d236a0831dd98c4bf9c6c86"
   license "MIT"
   head "https://github.com/cfmleditor/clif.git", branch: "main"
 
